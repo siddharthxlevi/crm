@@ -25,18 +25,18 @@ const routes = [
     component: () => import(`@/pages/${handleMobileView('Lead')}.vue`),
     props: true,
   },
-  {
-    alias: '/deals',
-    path: '/deals/view/:viewType?',
-    name: 'Deals',
-    component: () => import('@/pages/Deals.vue'),
-  },
-  {
-    path: '/deals/:dealId',
-    name: 'Deal',
-    component: () => import(`@/pages/${handleMobileView('Deal')}.vue`),
-    props: true,
-  },
+  // {
+  //   alias: '/deals',
+  //   path: '/deals/view/:viewType?',
+  //   name: 'Deals',
+  //   component: () => import('@/pages/Deals.vue'),
+  // },
+  // {
+  //   path: '/deals/:dealId',
+  //   name: 'Deal',
+  //   component: () => import(`@/pages/${handleMobileView('Deal')}.vue`),
+  //   props: true,
+  // },
   {
     alias: '/notes',
     path: '/notes/view/:viewType?',
